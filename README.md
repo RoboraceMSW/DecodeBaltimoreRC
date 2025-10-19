@@ -14,17 +14,16 @@ Decodes IR Remote Control HX1838 codes for each button:
 | **A6** [&nbsp;&nbsp;20]|  **B6**  [&nbsp;21]| **C6**  [&nbsp;22]|
 |     **A7** [n/a]| **B7** [n/a]| **C7** [n/a]    | 
 <br clear="left"/>
-</br>
+<br/>
 [n/a] : button does not exist; empty spot in button matrix
 <br/>
-<br/>
-Packaged with Baltimore 5000lumen, 50W LED floodlight with motions sensor<br/>
-( ZD Trading Model No: 3005472)
-<br/>
-IR button codes decoded with [ShowRawIRCode](https://github.com/RoboraceMSW/ShowRawIRCode)
-<br/>
-Added to [RemoteControlMapping](https://github.com/RoboraceMSW/RemoteControlMapping/)
-<br/>
+
+## additional information
+* Packaged with Baltimore 5000lumen, 50W LED floodlight with motions sensor<br/>
+( ZD Trading Model No: 3005472 )
+* IR button codes decoded with [ShowRawIRCode](../ShowRawIRCode)
+* Added to [RemoteControlMapping](https://github.com/RoboraceMSW/RemoteControlMapping/)
+
 ## Gebruiken als extensie
 
 Deze repository kan worden toegevoegd als **extensie** in MakeCode.
