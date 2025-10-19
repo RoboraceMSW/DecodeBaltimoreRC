@@ -1,22 +1,23 @@
-## DecodeHX1838
+## DecodeBaltimoreRC
 Decodes IR Remote Control HX1838 codes for each button:
 
-<img src="./HX1838_nbg.png"  width="20%" height="20%" align="left" alt="HX1838 IR remote control"/>
+<img src="./baltimore_RC.jpeg"  width="20%" height="20%" align="left" alt="HX1838 IR remote control"/>
 
 
 |   |   |   |
 |---|---|---|
-| **1**  [&nbsp;&nbsp;93]| **2**  [157]| **3**  [&nbsp;&nbsp;29]|
-| **4**  [221]| **5**  [253]| **6**  [&nbsp;&nbsp;61]|
-| **7**  [&nbsp;&nbsp;31]| **8** [&nbsp;&nbsp;21]| **9**  [&nbsp;&nbsp;9]|
-| **\*** [&nbsp;&nbsp;22]|  **0**  [25]| **#**  [13]|
-|      | **^** [&nbsp;&nbsp;24]|       |
-| **<** [&nbsp;&nbsp;8]|  **OK**  [199]| **>**  [165]|
-|      | **V** [181]|       | 
+| **A1**  [&nbsp;&nbsp;93]| **B1**  | **C1**  [&nbsp;&nbsp;29]|
+| **A2**  [221]| **B2**  [253]| **C2**  [&nbsp;&nbsp;61]|
+| **A3**  [&nbsp;&nbsp;31]| **B3** [&nbsp;&nbsp;21]| **C3**  [&nbsp;&nbsp;9]|
+| **A4*** [&nbsp;&nbsp;22]|  **B4**  [25]| **C4**  [13]|
+|     **A5** | **B5** [&nbsp;&nbsp;24]| **C5**      |
+| **A6** [&nbsp;&nbsp;8]|  **B6**  [199]| **C6**  [165]|
+|     **A7** | **B7** [181]| **C7**     | 
 <br clear="left"/>
 <br/>
 
-Sourced from <a href="https://nl.aliexpress.com/item/1005006463650651.html">Aliexpress</a> 
+Packaged with Baltimore 5000lumen, 50W LED floodlight with motions sensor<br/>
+( ZD Trading Model No: 3005472)
 <br/>
 IR button codes decoded with [ShowRawIRCode](../ShowRawIRCode)
 ## Gebruiken als extensie
@@ -26,7 +27,7 @@ Deze repository kan worden toegevoegd als **extensie** in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klik op **Nieuw project**
 * klik op **Extensies** onder het tandwielmenu
-* zoeken naar **https://github.com/roboracemsw/decodehx1838** en importeren
+* zoeken naar **https://github.com/roboracemsw/DecodeBaltimoreRC** en importeren
 
 ## Dit project bewerken
 
@@ -34,7 +35,7 @@ Om deze repository te bewerken in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klik op **Importeren** en klik vervolgens op **Importeer URL**
-* plak **https://github.com/roboracemsw/decodehx1838** en klik op importeren
+* plak **https://github.com/roboracemsw/DecodeBaltimoreRC** en klik op importeren
 
 #### Metadata (gebruikt voor zoeken, rendering)
 
