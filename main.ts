@@ -1,100 +1,55 @@
 IR.IR_callbackUser(function () {
-    if (IR.IR_read() == 24) {
-        basic.showLeds(`
-            . . # . .
-            . # # # .
-            # # # # #
-            . . # . .
-            . . # . .
-            `)
+    if (IR.IR_read() == 23) {
+        basic.showString("A1")
     }
-    if (IR.IR_read() == 8) {
-        basic.showLeds(`
-            . . # . .
-            . # # . .
-            # # # # #
-            . # # . .
-            . . # . .
-            `)
+    if (IR.IR_read() == 63) {
+        basic.showString("C1")
     }
-    if (IR.IR_read() == 165) {
-        basic.showLeds(`
-            . . # . .
-            . . # # .
-            # # # # #
-            . . # # .
-            . . # . .
-            `)
+    if (IR.IR_read() == 4) {
+        basic.showString("A2")
     }
-    if (IR.IR_read() == 181) {
-        basic.showLeds(`
-            . . # . .
-            . . # . .
-            # # # # #
-            . # # # .
-            . . # . .
-            `)
-    }
-    if (IR.IR_read() == 199) {
-        basic.showLeds(`
-            . . . . #
-            . . . # .
-            # . # . .
-            . # . . .
-            . . . . .
-            `)
-    }
-    if (IR.IR_read() == 22) {
-        basic.showLeds(`
-            # . # . #
-            . # # # .
-            # # # # #
-            . # # # .
-            # . # . #
-            `)
-    }
-    if (IR.IR_read() == 13) {
-        basic.showLeds(`
-            . # . # .
-            # # # # #
-            . # . # .
-            # # # # #
-            . # . # .
-            `)
-    }
-    if (IR.IR_read() == 93) {
-        basic.showNumber(1)
-    }
-    if (IR.IR_read() == 157) {
-        basic.showNumber(2)
-    }
-    if (IR.IR_read() == 29) {
-        basic.showNumber(3)
-    }
-    if (IR.IR_read() == 221) {
-        basic.showNumber(4)
-    }
-    if (IR.IR_read() == 253) {
-        basic.showNumber(5)
-    }
-    if (IR.IR_read() == 61) {
-        basic.showNumber(6)
+    if (IR.IR_read() == 6) {
+        basic.showString("B2")
     }
     if (IR.IR_read() == 31) {
-        basic.showNumber(7)
+        basic.showString("C2")
+    }
+    if (IR.IR_read() == 8) {
+        basic.showString("A3")
+    }
+    if (IR.IR_read() == 10) {
+        basic.showString("B3")
+    }
+    if (IR.IR_read() == 47) {
+        basic.showString("C3")
+    }
+    if (IR.IR_read() == 12) {
+        basic.showString("A4")
+    }
+    if (IR.IR_read() == 14) {
+        basic.showString("B4")
+    }
+    if (IR.IR_read() == 15) {
+        basic.showString("C4")
+    }
+    if (IR.IR_read() == 16) {
+        basic.showString("A5")
+    }
+    if (IR.IR_read() == 17) {
+        basic.showString("B5")
+    }
+    if (IR.IR_read() == 55) {
+        basic.showString("C5")
+    }
+    if (IR.IR_read() == 20) {
+        basic.showString("A6")
     }
     if (IR.IR_read() == 21) {
-        basic.showNumber(8)
+        basic.showString("B6")
     }
-    if (IR.IR_read() == 9) {
-        basic.showNumber(9)
-    }
-    if (IR.IR_read() == 25) {
-        basic.showNumber(0)
+    if (IR.IR_read() == 22) {
+        basic.showString("C6")
     }
 })
 Maqueen_V5.I2CInit()
 IR.IR_init()
-basic.forever(function () {
-	
-})
